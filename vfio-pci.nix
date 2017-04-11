@@ -5,7 +5,7 @@
   boot.kernelModules = [
     "vfio"
     "vfio_pci"
-    "vfio_iommy_type1" #TODO:0 fix typo or remove id:1
+    "vfio_iommy_type1" #DOING: fix typo or remove id:1 +bug gh:1
   ];
 
   boot.kernelParams = [
